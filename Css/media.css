@@ -1,0 +1,331 @@
+@media(max-width: 1043px){
+    .hero__item{
+        padding: 100px 0px 10px;
+    }
+    .cd__form{
+        margin: 100px 0px 120px;
+    }
+    .social__inner{
+        display: inline-flex;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .social__icons a{
+        line-height: 80px;
+    }
+    .feature-1{
+        padding: 100px 0px 100px;
+    }
+    .feature-2{
+        padding: 80px 0px 100px;
+    }
+    .feature-2__inner{
+        display: block;
+        text-align: center;
+    }
+    .img-left{
+        width: 75%;
+    }
+    .feature-2__contant{
+        width: 80%;
+        text-align: center;
+        margin: auto;
+    }
+    .feature__title-line:after{
+    width: 64px;
+    height: 2px;
+    background: #ff8b38;
+    display: block;
+    content: " ";
+    position: absolute;
+    left: 50%;
+    margin-left: -33px;
+    bottom: -20px;
+    }
+    .feature__title-line{
+        margin-bottom: 35px;
+    }
+    .icon__title{
+        display: flex;
+    }
+    .icon__title-1,
+    .icon__title-2{
+        display: flex;
+        width: 70%;
+        margin-left: 3%;
+        text-align: start;
+    }
+    .icon__text{
+        margin-left: 10px;
+    }
+    .pic__section{
+        display: block;
+        text-align: center;
+    }
+    .pic__section-text{
+        width: 80%;
+        margin: auto;
+    }
+    .pic__section img{
+        width: 75%;
+        padding-top: 15px;
+    }
+    .price{
+        padding-bottom: 80px;
+    }
+    .price_items {
+        display: block;
+    }
+    .price_item{
+        margin: auto;
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .price_item-title{
+        font-size: 25px;
+    }
+    .price_pop{
+        font-size: 18px;
+    }
+    .price_option{
+        font-size: 16px;
+    }
+}
+@media(max-width:911px){
+    .hero__item{
+        padding: 100px 0px 100px
+    }
+    .cd__form{
+        display: none;
+    }
+    .form__hero-btn{
+        padding: 10px 12px 10px;
+    }
+    .hero_btn-media{
+        display: inline-block;
+    }
+    .tabs-block{
+        display: grid;
+        justify-content: center;
+    }
+    .tabs{
+        display: -webkit-inline-box;
+    }
+    .tabs-block .tabs > div{
+        margin: 0px 1px 0px;
+        padding: 15px 35px;
+    }
+    .content_tabs{
+        padding-top: 35px;
+        display: inherit;
+    }
+    .feature__title{
+        margin-bottom: 25px;
+    }
+    .content{
+        display: inline-flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .content .img-tab{
+        display: block;
+    }
+    .img-tab-block{
+        display: none;
+    }
+    .icon__title-1,
+    .icon__title-2{
+        margin-left: 2%; 
+    }
+    .feedback_items{
+        display: block;
+        margin: auto;
+        width: 53%;
+    }
+    .feedback_item{
+        max-width: 100%;
+    }
+    .feedback_item-top{
+        font-size: 16px;
+    }
+    .author{
+        padding: 6px 0px 12px 6%;
+    }
+    .form__box-inner{
+        display: block;
+    }
+    .form__box-left,
+    .form__box-right{
+        margin: auto;
+    }
+}
+@media(max-width: 763px){
+    .feature-1{
+        padding-top: 100px;
+    }
+    .content .img-tab{
+        display: none;
+    }
+    .tabs-block .img-tab-block{
+        display: block;
+        padding-top: 15px;
+        text-align: center;
+    }
+    .icon__title{
+        display: block;
+    }
+    .icon__text {
+        margin-left: 15px;
+    }
+    .icon__title-1, .icon__title-2 {
+        margin-left: 4%;
+        width: 75%;
+    }
+    .price_option{
+        font-size: 14px;
+    }
+}
+@media(min-width: 750px){
+    .menu ul{
+        display: block !important;
+    }
+}
+
+@media( max-width: 679px){
+    .social__media{
+        display: none;
+    }
+    .feature-1{
+        padding-top: 50px;
+    }
+    .about__items{
+        display: block;
+    }
+    .about__item{
+        width: 100%;
+        margin: auto;
+    }
+    .about__item-icon-2,
+    .about__item-icon-3{
+        margin-top: 45px;
+    }
+    .about__title,
+    .price_title,
+    .feedback_title,
+    .custom_title,
+    .form__title {
+        font-size: 30px;
+    }
+}
+@media(max-width: 550px){
+    .header__btn-menu{
+        display: block;
+        color: #fff;
+        font-size: 30px;
+    }
+    .menu ul{
+        display: none;
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        margin-top: 20px;
+    }
+    .menu li{
+        display: block;
+        text-align: center;
+    }
+    .menu a{
+        display: block;
+        background-color: #ff8b38;
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+    }
+    .menu li + li{
+        padding-left: 0px;
+    }
+    .hero__inner{
+        text-align: center;
+    }
+    .hero__title:after{
+        width: 64px;
+    height: 2px;
+    background: #fff;
+    display: block;
+    content: " ";
+    position: absolute;
+    left: 50%;
+    margin-left: -33px;
+    bottom: -30px;
+    }
+    .img-left {
+        width: 100%;
+    }
+    .pic__section img {
+        width: 100%;
+    }
+    .pricing{
+        font-size: 80px;
+    }
+    .pr{
+        font-size: 30px;
+    }
+    .price_pop{
+        font-size: 16px;
+    }
+    .price_item-title{
+        font-size: 23px;
+    }
+    .feedback_items{
+        margin: auto;
+        width: 85%;
+    }
+}
+@media(min-width: 319px) and (max-width: 424px){
+    .hero__item{
+        padding: 50px 0px 50px;
+    }
+    .hero__title{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .tabs-block .tabs > div{
+        padding: 10px 30px;
+    }
+    .icon__title-1,
+    .icon__title-2{
+        width: 95%; 
+    }
+    .about__title{
+        font-size: 25px;
+    }
+    .price_item{
+        width: 75%;
+    }
+    .about__item-title{
+        font-size: 17px;
+    }
+    .price_title{
+        font-size: 25px;
+    }
+    .price_item-title{
+        font-size: 17px;
+    }
+    .pr{
+        font-size: 27px;
+    }
+    .pricing{
+        font-size: 50px;
+        padding: 15px 0px 15px;
+    }
+    .price_pop{
+        font-size: 14px;
+    }
+    .price_option{
+        font-size: 13px;
+    }
+    .link__social a{
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+}

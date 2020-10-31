@@ -381,7 +381,7 @@ button{
     font-size: 20px;
     color: #000000;
 }
-.about{
+#about{
     margin: 90px 0px 100px;
 }
 .about__top{
@@ -461,7 +461,7 @@ button{
     font-weight: bold;
     color: #000000;
 }
-.price{
+#price{
     background-color: #f5f5f5;
     padding: 100px 0px 95px;
     
@@ -555,7 +555,7 @@ button{
     color: #86878b;
     padding: 10px 0px;
 }
-.feedback{
+#feedback{
 
     padding: 100px 0px 95px;
     
@@ -675,7 +675,7 @@ button{
 .custom-btn a:hover{
     border: 1px solid #ff8b38;
 }
-.forms{
+#forms{
     padding: 70px 0px 63px;
 }
 .form__inner{
